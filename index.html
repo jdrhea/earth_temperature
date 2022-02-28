@@ -2,7 +2,9 @@
 <html>
 <body>
 
+<h4 id="time_label">MYFN:</h4>  
 <p id="time"></p>
+<h4 id="temp_label">Temperature:</h4>  
 <p id="temp"></p>
 
 
@@ -11,8 +13,12 @@ setInterval(myCounter, 25);
 var x = 0
 var y = 0
 document.getElementsByTagName('body')[0].style.backgroundColor = "black";
+document.getElementById("time_label").style.color = "white";
+document.getElementById("time_label").style.fontSize = "200px";
 document.getElementById("time").style.color = "white";
 document.getElementById("time").style.fontSize = "200px";
+document.getElementById("temp_label").style.color = "white";
+document.getElementById("temp_label").style.fontSize = "200px";
 document.getElementById("temp").style.color = "white";
 document.getElementById("temp").style.fontSize = "200px";
 
